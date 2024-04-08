@@ -4,3 +4,9 @@ html {
     background-color: antiquewhite;
     font-family: "Montserrat", sans-serif;
 }
+
+body {
+    width: 960px;
+    margin: 0 auto;
+
+}
